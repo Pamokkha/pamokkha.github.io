@@ -1,0 +1,37 @@
+/* Universal Selector အကုန်လုံး */
+*{
+    /* color: red; */
+    font-size: 20px;
+}
+/* tag / element selector */
+h1{
+    color: green;
+    text-align: center;
+}
+
+/* attribue selector */
+a[title="google"]{
+    color: blue;
+    letter-spacing: 2px;
+}
+/* id seletor id ကြေညာတဲ့အခါ id တူလို့မရပါ*/
+#idone{
+    color: brown;
+}
+/* class selector clssသည် တစ်ခုထက်မက သတ်မှတ်နိုင် */
+.classone{
+    color: blueviolet;
+    line-height: 25px;
+    text-indent: 40px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+/* descendent selector */
+.desc a{
+    color: red;
+    text-decoration: none;
+}
+.child > a{
+    color: green;
+}
+
