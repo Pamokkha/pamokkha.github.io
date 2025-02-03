@@ -34,4 +34,29 @@ a[title="google"]{
 .child > a{
     color: green;
 }
+/* Pseudo selector */
+/* :link သည် a tag မှာသာအသုံးပြုလို့ရတယ်*/
+/* စစချင်းအရောင် လိုချင်ရင် a:linkနဲ့ရေးရတယ် */
+a:link{
+    color:red;
+}
+/* mouse နဲ့ထောက်လိုက်တဲ့အခါ အရောင်ပြောင်းချင်ရင် a:hoverနဲ့ရေးပါ */
+a:hover{
+    color:green;
+}
+/* clickလိုက်တဲ့အခါ အရောင်ပြောင်းချင်ရင် a:activeနဲ့ရေးပါ */
+a:active{
+    color:yellow;
+}
+/* အလည်လာပြီးပြန်ထွက်တဲ့အခါ အရောင်ပြောင်းချင်ရင် a:visitorနဲ့ရေးပါ */
+a:visited{
+    color:purple;
+}
+/* target */
+/* ပစ်မှတ်ထားတဲ့နေရာ ပြောင်းလဲချင်ရင် id ပေးထားပြီး targetနဲ့ရေးပါ။ ကိုယ်လိုချင်တဲ့ tag(p tag div tag စသည်ဖြင့်)ပြောင်းချင်ရင် tag နာမည် အထိအကျရေးပါ  */
+ :target{
+    color:red;
+    border:2px solid black;
+}
+
 
