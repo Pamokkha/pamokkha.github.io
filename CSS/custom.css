@@ -8,6 +8,7 @@
 h1{
     color: green;
     text-align: center;
+    margin: 50px 0px;
 }
 
 /* attribue selector */
@@ -110,5 +111,48 @@ a:visited{
     width: 300px;
     display: inline-block;  
 }
+/* float l/r */
+.float_left img{
+    width: 40%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.float_right img{
+    width: 40%;
+    float: right;
+}
+/* grid */
+.gridOne div,.gridTwo div,.gridThree div,.gridFour div,.gridFive div,.gridSix div{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.gridOne,.gridTwo,.gridThree,.gridFour,.gridFive,.gridSix{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.gridTwo{
+    grid-column-gap: 50px;
+}
+.gridThree{
+    grid-row-gap: 30px;
+}
+.gridFour{
+    grid-gap: 50px;
+    /* grid-row-gap:40px; */
+    /* grid-colum-gap: 20px */
+}
+.colunmadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+
 
 
