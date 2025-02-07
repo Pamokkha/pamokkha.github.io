@@ -150,8 +150,59 @@ a:visited{
 }
 .rowadd{
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 3;
 }
+/* Position */
+.relative_parent{
+    border: 2px solid red;
+    width: 1000px;
+    height: 500px;
+}
+.relative{
+    border: 2px solid green;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+.absolute_parent{
+    border: 2px solid purple;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+.absolute{
+    border: 2px solid black;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+.fixed{
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+
+/* online font */
+.onlineFont {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* offline font ချိတ်နည်း */
+@font-face {
+    font-family: Shadow;
+    src: url(Fonts/ShadowsIntoLight-Regular.ttf);
+}
+
+.offline{
+    font-family: Shadow;
+}
+  
+
 
 
 
