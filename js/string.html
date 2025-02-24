@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <h1>String Lesson</h1>
+
+<script>
+    let firstName = "Developer";
+    let lastName = "Kyaw Zin Aung";
+    console.log(firstName,lastName);
+    console.log(lastName.length);
+    
+
+    let fullName = firstName + ' '+ lastName;
+    console.log(fullName);
+
+    console.log("my Name is" +fullName);
+
+    document.write(fullName +'<br>');
+
+    document.write(firstName + '<b>' + lastName + '</b><br>');
+
+    document.write(`${firstName} <b> ${lastName} </b><br>`);
+    document.write(`My name id ${firstName}. I am 45 years old.<br>`);
+
+    document.write(firstName.toUpperCase() +'<br>');
+    document.write(firstName.toLowerCase()+'<br>');
+
+// ကိုယ်ပေါ်ချင်တဲ့စာတန်းကို ဖြတ်တောက်ချင်တဲ့အခါ ရေးပုံ
+    document.write(fullName.substr(10,4)+'<br>');
+   
+
+    let myJob = "Senior Developer";
+    document.write(myJob.trim());
+
+    let ser = "Javascript is funny!";
+    document.write(ser.search('is')+'<br>');
+
+    // အစားထိုးချင်တဲ့အခါ
+    let rep = "I want to visit Mandalya";
+    document.write(rep.replace('Mandalay', 'Yangon')+'<br>');
+
+    // single code ထဲမှာ single code ကြေငြာချင်တဲ့အခါ
+    document.write('I\'m Kyaw Zin Aung');
+    
+    // double codeထဲမှာ double code ကြေငြာချင်တဲ့အခါ ရေးချင်တဲ့အခါ (\)အသုံးပြုပုံ
+    document.write("I\'M Kyaw Zin Aung, My height is 5'6\"");
+    document.write(`I'm Kyaw Zin Aung, My height is 5'6"`);
+
+    
+    
+</script>
+</body>
+</html>
