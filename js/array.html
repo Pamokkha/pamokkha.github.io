@@ -10,7 +10,7 @@
     <script>
         // array
         let arr = [1,2,3];
-        // array၏ သိချင်တဲ့ အခန်းကို ရေးချင်ရင်
+        // array၏ သိချင်တဲ့ အခန်းကို ရေးချင်ရင် 
         console.log(arr[1]);
         // array ခန်းထဲမှာရှိတဲ့ အခန်းအရေအတွက်ကို သိချင်ရင်
         console.log(arr.length);
@@ -36,6 +36,56 @@
        
         fruits.shift();  // ရှေ့ဆုံးကနေ data ဖျက်ချင်ရင်
         console.log(fruits);
+
+        // Arrayကို အစဉ်လိုက်စီချင်ရင် 
+        let students = ["mg mg","aung aung", "aye aye","hla hla", "zaw zaw"]
+        console.log(students);
+
+        students.sort(); // A to Z စီချင်ရင် sort()နဲ့ရေး
+        console.log(students);
+
+        students.reverse(); // z to a စီချင်တဲ့အခါ reverse() နဲ့ရေး
+        console.log(students);
+
+        students.sort().reverse(); // a to z အပြန်အလှန်စီချင်တဲ့အခါ ဒီလိုလဲစီနိုင်တယ်
+        console.log(students);
+
+        let studentStr = students.toString(); // အပြန်အလှန် စီချင်တဲ့အခါမှာလဲ ဒီလိုလဲ စီနိုင်တယ်
+        console.log(studentStr);
+
+        let names = "Hla Hla, Mya Mya, Aung Aung, Tun Tun, Aye Aye";
+
+        let nameListArray = names.split(''); // ကောမာတွေ့တိုင်း အပိုင်းပိုင်း ပိုင်းလိုတဲ့အခါ
+        console.log(nameListArray);
+
+        // Array တွေကို အခန်းပေါင်းချင်တဲ့အခါ ရေးသားပုံ
+        let arr1 =[1,2,3,4];
+        let arr2 =[5,6,7];
+        let arry4 = [8,9,10]
+        console.log(arr1);
+        console.log(arr2);
+
+        let arr3 = arr1. concat(arr2);
+        console.log(arr3);
+
+        let arr5 = [...arr1,...arr2,...arr4];
+        console.log(arr5);
+        
+
+        
+        
+        
+        
+
+
+        
+
+     
+        
+        
+
+        
+        
         
         
         
