@@ -1,6 +1,9 @@
 *{
+    
     padding: 0;
     margin: 0;
+    
+
 }
 body{
     background-color: white;
@@ -13,7 +16,7 @@ nav{
 
 .navbar{
     display: grid;
-    grid-template-columns:  1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr;
     padding: 10px;
     align-items: center;
     
@@ -52,7 +55,8 @@ nav{
     text-decoration: none;
     color: green;
     padding: 15px;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .content ul li a:hover{
@@ -76,6 +80,7 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 
 } 
 
@@ -84,6 +89,11 @@ nav{
     font-weight: bold;
     color: green;
     margin-bottom: 300px;
+    
+}
+
+.hero-text p{
+    margin: 20px 0;
 }
 .btn{
     display: inline-block;
@@ -95,6 +105,40 @@ nav{
     justify-items: center;
     margin-top: 10px;
 }
+/* for shop products */
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.icon div{
+    border: 1px solid;
+    border-radius: 5px;
+    background: gainsboro;
+    width: 1em;
+    height: 1em;
+    font-size: 1.5em;
+    text-align: center;
+    color: green;
+    padding: 20px;
+    margin-right: 20px;
+}
+.icon div:hover{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+#menu-btn{
+    display: none;
+}
+
+.search-form{
+    border: 1px solid;
+    position: absolute;
+    
+}
     
 
 /* popular menu */
@@ -104,6 +148,10 @@ nav{
     text-align: center;
     padding: 100px 0 50px 0;
     
+}
+.product-title{
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .feature-menu{
@@ -197,7 +245,7 @@ nav{
 .form-group input, .form-group textarea{
     width: 90%;
     padding: 10px;
-    background-color: gold;
+    background-color: rgb(247, 245, 234);
     border: 1px solid rgb(5, 185, 5);
     border-radius: 5px;
     color: white;
@@ -209,4 +257,19 @@ nav{
     text-align: center;
    
 }
+
+.footer{
+    
+    border: 1px solid green;
+    border-bottom: none;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 18px;
+}
+.footer-title{
+    
+    font-weight: bold;
+    
+}
+
 

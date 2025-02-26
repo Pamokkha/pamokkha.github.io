@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homework</title>
+    <title>homework </title>
 </head>
 <body>
-    <h1>Homework about condition</h1>
+    <h1>Homework for looping</h1>
     <script>
         // // let number = parseInt(prompt("Enter a Number:"));
         // let number = Number(prompt ("Enter a Number"));
@@ -18,10 +18,17 @@
         //     document.write("Your enter number is an odd number." + number);
         // }
          // your input number ali
-         let yourNumber = Number(prompt('Enter a Number'));
-         for (k=1; k<=12; k++) {
-            document.write(`<p> 13x ${k} = ${13*k}</>`)
+         
+
+         let userNumber = Number(prompt('Enter a Number'));
+         for (let n=1; n<=12; n++) {
+            let result = n * userNumber;
+            document.write(`${userNumber} x ${n} = ${result * n}<br>`);
         }
+
+       
+
+
     </script>
 </body>
 </html>
