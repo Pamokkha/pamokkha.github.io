@@ -61,6 +61,11 @@ body{
     align-items: center;
     
 }
+.menu ul li span{
+    top: 0;
+    position: absolute;
+    color: red;
+}
 
 .product{
     display: grid;
@@ -110,4 +115,12 @@ body{
     cursor: pointer;
     
 }
+
+ tr th, tr td{
+    padding: 25px;
+
+}
+
+
+
 
