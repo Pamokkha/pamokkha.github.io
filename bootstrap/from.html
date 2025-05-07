@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.5-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 class="text-center text-danger my-5">Student Register</h1>
+   <div class="container">
+    <div class="row">
+        <div class="col-12 offset-md-3 col-md-6 ">
+            <form action="" method="post">
+                <div>
+                    <label for="photo" class="form-label">Photo</label>
+                    <input type="file" id="photo" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" placeholder="name" id="name" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" placeholder="exmple@gmail.com" id="email" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="dob" class="form-label">DOB</label>
+                    <input type="date" placeholder="dob" id="dob" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="number" placeholder="+1********" id="phone" class="form-control">
+                </div>
+
+                
+                    <label for="gender" class="d-block mb-2">Gender</label>
+                    <div class="form-check-inline">
+                        <input type="radio" name="gender" id="male" class="form-check-input">
+                        <label for="male" class="form-check-label">Male</label>
+                    </div>
+              
+                <div class="form-check-inline">
+                    <input type="radio" name="gender" id="female" class="form-check-input">
+                    <label for="female" class="form-check-label">Female</label>
+                </div>
+
+                <label for="edu" class="d-block mt-3" >Education</label>
+                <select name="" id="" class="form-select my-2">
+                    <option value="1">First Year</option>
+                    <option value="2">Second Year</option>
+                    <option value="3">Third Year</option>
+                    <option value="4">Final Year</option>                  
+                </select>
+
+                <label for="" class="mt-3 form-label mt-3">Hobbies</label>
+                <div class="form-check">
+                    <input type="checkbox"  id="reading" class="form-check-input">
+                    <label for="reading">Reading</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="" id="Singing" class="form-check-input">
+                    <label for="Singing">Singing</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="" id="swimming" class="form-check-input">
+                    <label for="swimming">Swimming</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="" id="dancing" class="form-check-input">
+                    <label for="dancing">Dancing</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="" id="Traveling" class="form-check-input">
+                    <label for="Traveling">Traveling</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="" id="Hiking" class="form-check-input">
+                    <label for="Hiking">Hiking</label>
+                </div>
+
+                <div class="my-3">
+                    <label for="address">Address</label>
+                    <textarea name="" id="" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success float-end">Register</button>
+            </form>
+        </div>
+    </div>
+   </div>
+    <script src="bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

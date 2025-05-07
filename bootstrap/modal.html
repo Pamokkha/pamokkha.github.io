@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.5-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
+            <div class="col mb-3">
+                <div class="card-body">
+                    <img src="images/carousel.jpg" alt="" class="card-img-top">
+                    <h3>Product Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, voluptatibus!</p>
+                    <button class="btn btn-primary" data-bs-target="#MyModal" data-bs-toggle="modal">Read More</button>
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="card-body">
+                    <img src="images/carousel.jpg" alt="" class="card-img-top">
+                    <h3>Product Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, voluptatibus!</p>
+                    <button class="btn btn-primary" data-bs-target="#MyModal" data-bs-toggle="modal">Read More</button>
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="card-body">
+                    <img src="images/carousel.jpg" alt="" class="card-img-top">
+                    <h3>Product Name</h3>
+                    
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, voluptatibus!</p>
+                    <button class="btn btn-primary" data-bs-target="#MyModal" data-bs-toggle="modal">Read More</button>
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="card-body">
+                    <img src="images/carousel.jpg" alt="" class="card-img-top">
+                    <h3>Product Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, voluptatibus!</p>
+                    <button class="btn btn-primary" data-bs-target="#MyModal" data-bs-toggle="modal">Read More</button>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+<!-- modal for product detail -->
+    <div class="modal fade" id="MyModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <!--header product name -->
+                <div class="modal-header">
+                    <h5 class="modal-title">This is Modal Header</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+    <!--body product price and product detail -->
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <h4>Proudct Name</h4>
+                                <h6>$500</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, aliquam nisi rem culpa eaque illo veniam quisquam error. Architecto, nulla.</p>
+                                <button class="btn btn-primary">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!-- footer close box -->
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Colse</button>
+                    <button class="btn btn-primary">Save Change</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
